@@ -9,7 +9,7 @@ from io import BytesIO
 try:
     model = load_model('D:/1-brain_insipred/cv/chest_xray/models/chest_xray_model.h5')
 except Exception as e:
-    st.error(f"Error loading model: {e}")
+    st.error(f"Error loading model")
     st.stop()
 
 # Define the class names for prediction output
@@ -36,7 +36,7 @@ class Prediction:
 
             return predicted_class, predicted_confidence, predictions
         except Exception as e:
-            st.error(f"Error during classification: {e}")
+            st.error(f"Error during classification")
             return None, None, None
 
 # Initialize the Prediction class
@@ -68,7 +68,7 @@ if input_option == "Upload Image(s)":
                 image = np.array(Image.open(uploaded_image))
                 images.append((image, uploaded_image.name))  # Store image with its file name
             except Exception as e:
-                st.error(f"Error loading image: {e}")
+                st.error(f"Error loading image")
 
 elif input_option == "Image URL":
     image_url = st.text_input("### Step 1: Enter the Image URL")
@@ -81,7 +81,7 @@ elif input_option == "Image URL":
             else:
                 st.error("Error fetching image from URL: Unable to retrieve the image.")
         except Exception as e:
-            st.error(f"Error fetching image from URL: {e}")
+            st.error(f"Error fetching image from URL")
 
 # Store classification results
 results = []
