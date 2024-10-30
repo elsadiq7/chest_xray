@@ -26,6 +26,8 @@ This dataset contains chest X-ray images, used to distinguish between healthy lu
 
 This dataset supports the development of automated methods for disease detection and classification in medical images, offering potential applications in AI-assisted diagnostics for pneumonia and other respiratory diseases.
 
+---
+
 ## 🩺 Chest X-ray Dataset: Preprocessing and Exploration
 
 This section explains the steps for preparing and exploring chest X-ray images used in classifying pneumonia cases.
