@@ -48,7 +48,6 @@ The `show_images` function displays a grid of images with their respective label
 | Test      | Pneumonia   | 390   | 62.50%     |
 |           | Normal      | 234   | 37.50%     |
 
-This summary provides a comprehensive overview of the dataset, preparing it for effective model training and evaluation.
 ----
 
 # Model Training and Evaluation Summary
