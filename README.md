@@ -49,9 +49,9 @@ The `show_images` function displays a grid of images with their respective label
 |           | Normal      | 234   | 37.50%     |
 
 This summary provides a comprehensive overview of the dataset, preparing it for effective model training and evaluation.
+----
 
 # Model Training and Evaluation Summary
-
 ## Model Selection
 Two pretrained models from the ImageNet dataset were utilized for binary classification of chest X-ray images: **ResNet50** and **DenseNet121**. Both models were used as feature extractors with their layers frozen to preserve learned weights, followed by a dense layer to predict two classes.
 
@@ -94,7 +94,7 @@ The confusion matrix provides insights into classification performance across bo
 
 ![Confusion Matrix](confusion_matrix.png)
 
-
+---
 # Chest X-Ray Classification App
 
 This application utilizes a pre-trained deep learning model to classify chest X-ray images as either **Normal** or **Pneumonia**. It is built using Streamlit, providing a user-friendly interface for image uploads and displaying prediction results.
@@ -131,7 +131,7 @@ This application utilizes a pre-trained deep learning model to classify chest X-
 
 7. **Session Management**
    - A button is provided to start a new session, which clears the images and resets the app.
-
+----
 ## Additional Information
 - The model is trained to differentiate between normal and pneumonia-affected chest X-rays.
 - Confidence levels for each prediction are displayed as a percentage.
