@@ -34,7 +34,7 @@ The `show_images` function displays a grid of images with their respective label
   
 | 🫁 **Normal** | 🤒 **Pneumonia** |
 |---------------|------------------|
-| ![Normal X-ray](image-link) | ![Pneumonia X-ray](image-link) |
+| ![Normal X-ray](images/normal.png) | ![Pneumonia X-ray](images/pneu.png) |
 
 </details>
 
@@ -86,12 +86,12 @@ Below are visualizations for training and validation accuracy and loss, demonstr
 - **Accuracy Plot**: Demonstrates the training and validation accuracy per epoch.
 - **Loss Plot**: Shows the decrease in training and validation loss over time.
 
-![Accuracy and Loss Plots](accuracy_loss_plots.png)
+![Accuracy and Loss Plots](images/loss.png)
 
 ## Confusion Matrix
 The confusion matrix provides insights into classification performance across both classes, aiding in error analysis.
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](images/conf.png)
 
 ---
 # Chest X-Ray Classification App
