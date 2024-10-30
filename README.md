@@ -1,3 +1,31 @@
+# Chest X-Ray Images (Pneumonia) Dataset
+
+
+
+## Overview
+
+This dataset contains chest X-ray images, used to distinguish between healthy lungs and lungs with pneumonia. The images are organized into three primary folders (`train`, `test`, `val`) with subfolders for each class: **Normal** and **Pneumonia**.
+
+- **Source**: Images were sourced from the Guangzhou Women and Children's Medical Center and consist of chest X-rays from pediatric patients aged 1-5 years.
+- **Image Quality**: All scans underwent quality control; unreadable or low-quality images were removed.
+- **Annotation**: Diagnosis of each scan was performed by two expert radiologists, with a third review to ensure accuracy, especially for the evaluation set.
+
+## Image Characteristics
+
+- **Normal Lungs**: Clear lungs without any areas of abnormal opacification.
+- **Bacterial Pneumonia**: Typically shows localized areas of lung consolidation.
+- **Viral Pneumonia**: Presents a more diffuse, interstitial pattern affecting both lungs.
+
+## Dataset Source and Citation
+
+- **Data Link**: [Mendeley Data Repository](https://data.mendeley.com/datasets/rscbjbr9sj/2)
+- **License**: CC BY 4.0
+- **Research Article**: [Cell Journal](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5) - Illustrative examples and details about pneumonia and normal lung patterns in chest X-rays.
+
+## Inspiration
+
+This dataset supports the development of automated methods for disease detection and classification in medical images, offering potential applications in AI-assisted diagnostics for pneumonia and other respiratory diseases.
+
 ## 🩺 Chest X-ray Dataset: Preprocessing and Exploration
 
 This section explains the steps for preparing and exploring chest X-ray images used in classifying pneumonia cases.
