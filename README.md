@@ -160,6 +160,23 @@ This application utilizes a pre-trained deep learning model to classify chest X-
 
 7. **Session Management**
    - A button is provided to start a new session, which clears the images and resets the app.
+  
+### Example: 
+ ## Uploaded Images Flow
+- ![g1](images/g1.png)
+- ![g1](images/g2.png)
+
+#### Example 1
+- ![g1](images/g3.png)
+
+#### Example 2
+- ![g1](images/g4.png)
+
+### URL Images Flow 
+- ![g1](images/g22.png)
+- ![g1](images/g23.png)
+
+
 ----
 ## Additional Information
 - The model is trained to differentiate between normal and pneumonia-affected chest X-rays.
