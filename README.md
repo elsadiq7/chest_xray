@@ -1,6 +1,6 @@
 # Chest X-Ray Images (Pneumonia) Dataset
 
-
+🚀 You can also try the app directly on [Hugging_Face](https://huggingface.co/spaces/abdulrahman245/Chest.Xray) 
 
 ## Overview
 
